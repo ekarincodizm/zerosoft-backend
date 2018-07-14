@@ -1,0 +1,93 @@
+[{
+  "name": "sidebar.overviews",
+  "icon": "fas fa-tachometer-alt",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.todo",
+    "router": {
+      "name": "InventoryTodo"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.currentstock",
+    "router": {
+      "name": "CurrentStock"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.stockcontrols",
+  "icon": "fas fa-box-open",
+  "activeClass": "",
+  "submenus": []
+},{
+  "name": "sidebar.activities",
+  "icon": "fas fa-history",
+  "router": {
+    "name": "StockActivity"
+  },
+  "activeClass": ""
+},{
+  "name": "sidebar.goodsreceipt",
+  "icon": "far fa-file-alt",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "GoodsReceiptAll"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "GoodsReceiptNew"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.goodsissue",
+  "icon": "far fa-file-alt",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "GoodsIssueAll"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "GoodsIssueNew"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.configuration",
+  "icon": "fas fa-wrench",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.settings",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.assignitems",
+    "router": {
+      "name": "InventoryAssignItem"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.warehouses",
+    "router": {
+      "name": "WarehouseManagement"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.notifications",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  }]
+}]

@@ -1,0 +1,69 @@
+[{
+  "name": "sidebar.products",
+  "icon": "fas fa-list-alt",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "ProductAll"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "ProductNew"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.categories",
+  "icon": "fas fa-sitemap",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "CategoryAll"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "CategoryNew"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.modifiers",
+  "icon": "fas fa-project-diagram",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "ModifierAll"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "ModifierNew"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.discounts",
+  "icon": "fas fa-tag",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "Home"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "Home"
+    },
+    "activeClass": ""
+  }]
+}]

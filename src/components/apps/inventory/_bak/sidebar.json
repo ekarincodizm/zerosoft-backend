@@ -1,0 +1,53 @@
+[{
+  "name": "sidebar.stockcontrols",
+  "icon": "fas fa-box-open",
+  "activeClass": "",
+  "submenus": []
+},{
+  "name": "sidebar.warehouses",
+  "icon": "fas fa-store",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "Home"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.activities",
+  "icon": "fas fa-history",
+  "router": {
+    "name": "StockActivity"
+  },
+  "activeClass": ""
+},{
+  "name": "sidebar.configuration",
+  "icon": "fas fa-wrench",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.settings",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.warehouses",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.notifications",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  }]
+}]

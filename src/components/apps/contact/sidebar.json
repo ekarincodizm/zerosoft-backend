@@ -1,0 +1,42 @@
+[{
+  "name": "sidebar.contactlist",
+  "icon": "fas fa-list-alt",
+  "router": {
+    "name": "ContactListAll"
+  },
+  "activeClass": ""
+},{
+  "name": "sidebar.customer",
+  "icon": "fas fa-user",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "ContactCustomerAll"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "ContactCustomerNew"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.vendor",
+  "icon": "fas fa-truck",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "ContactVendorAll"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "ContactVendorNew"
+    },
+    "activeClass": ""
+  }]
+}]

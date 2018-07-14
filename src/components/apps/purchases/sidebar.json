@@ -1,0 +1,28 @@
+[{
+  "name": "sidebar.purchase_order",
+  "icon": "far fa-file-alt",
+  "activeClass": "opened",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": "Home",
+    "activeClass": "active"
+  },{
+    "name": "sidebar.create",
+    "router": "Home",
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.receive_shipment",
+  "icon": "far fa-file-alt",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": "Home",
+    "activeClass": ""
+  }]
+},{
+  "name": "ทดสอบ",
+  "icon": "fa fa-home",
+  "router": "Home",
+  "activeClass": ""
+}]

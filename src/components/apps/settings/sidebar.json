@@ -1,0 +1,58 @@
+[{
+  "name": "sidebar.general",
+  "icon": "fas fa-chalkboard",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.companyinfo",
+    "router": {
+      "name": "SettingsCompany"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.appearance",
+    "router": {
+      "name": "SettingsAppearance"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.userpermission",
+  "icon": "fas fa-users-cog",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.all",
+    "router": {
+      "name": "SettingsUserPermissionAll"
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.create",
+    "router": {
+      "name": "SettingsUserPermissionNew"
+    },
+    "activeClass": ""
+  }]
+},{
+  "name": "sidebar.advanced",
+  "icon": "fas fa-wrench",
+  "activeClass": "",
+  "submenus": [{
+    "name": "sidebar.security",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.storage",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  },{
+    "name": "sidebar.account",
+    "router": {
+      "name": ""
+    },
+    "activeClass": ""
+  }]
+}]
